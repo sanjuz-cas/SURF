@@ -1,0 +1,43 @@
+# Python Backend Dependencies
+# FastAPI and related packages
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.0
+
+# LangGraph and LangChain for multi-agent systems
+langgraph==0.0.60
+langchain==0.1.0
+langchain-community==0.0.10
+langchain-core==0.1.0
+
+# Database
+psycopg2-binary==2.9.9
+sqlalchemy==2.0.23
+alembic==1.13.1
+
+# HTTP and API clients
+httpx==0.25.2
+requests==2.31.0
+
+# Environment and configuration
+python-dotenv==1.0.0
+pydantic-settings==2.1.0
+
+# Integrations
+slack-sdk==3.26.1
+notion-client==2.2.1
+
+# Email
+sendgrid==6.10.0
+python-multipart==0.0.6
+
+# Authentication and security
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-multipart==0.0.6
+
+# Development and testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+black==23.11.0
+flake8==6.1.0
